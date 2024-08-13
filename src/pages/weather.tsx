@@ -91,7 +91,7 @@ const getWeather = async () => {
 
 export default function Weather({
   weatherData,
-}: InferGetServerSidePropsType<typeof getSeverSideProps>) {
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   console.log(weatherData);
   const [weather, setWeather] = useState<WeatherData>();
   const [timeIndex, setTimeIndex] = useState(0);
