@@ -140,7 +140,7 @@ export default function Weather({
   );
 }
 
-export const getSeverSideProps = (async () => {
+export const getServerSideProps = (async () => {
   const weatherData = await getWeather();
   console.log(weatherData, "hello fromt server");
   return { props: { weatherData } };
