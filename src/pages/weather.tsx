@@ -106,7 +106,7 @@ export default function Weather({
       <div className="bg-white w-screen lg:h-96 h-48"></div>
       <div className="p-12 lg:p-24 flex flex-col gap-12">
         <div>
-          <h1 className="text-2xl">Leeds' Current Temperature</h1>
+          <h1 className="text-2xl">Leeds&apos; Current Temperature</h1>
           <h2 className="text-5xl">
             {Math.round(weather?.hourly?.temperature2m?.[timeIndex] ?? 0)}&deg;C
           </h2>
